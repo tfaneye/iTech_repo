@@ -8,6 +8,7 @@ import java.util.Properties;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 public class BasePage{
 	
@@ -35,7 +36,7 @@ public class BasePage{
 		driver.navigate().to(config.getProperty("baseUrl"));
 		logger.info("Browser loaded successfully");
 				
-		return new HomePage(driver);
+		return PageFactory.initElements(driver, HomePage.class);
 	}
 
 }
