@@ -1,0 +1,8 @@
+Dependencies needed for RESTAssured:
+
+1. RESTAssured
+2. JUnit
+3. Hamcrest Matchers
+
+Others:
+BDD => Cucumber
