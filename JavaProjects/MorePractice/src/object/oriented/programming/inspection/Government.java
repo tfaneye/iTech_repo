@@ -13,7 +13,7 @@ public class Government {
         double myCarPrice = car.getCarPrice();
         System.out.println(myCarPrice);
 
-        car.setCarPrice(600000);
+        car.setCarPrice(60000);
         double myNewCarPrice = car.getCarPrice();
         if(myNewCarPrice == 56000){
             System.out.println("Old Car price");

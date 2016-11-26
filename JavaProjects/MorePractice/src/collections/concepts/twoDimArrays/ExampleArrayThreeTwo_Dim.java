@@ -1,4 +1,4 @@
-package collections.concepts;
+package collections.concepts.twoDimArrays;
 
 /**
  * Created by Tunde on 21/11/2016.

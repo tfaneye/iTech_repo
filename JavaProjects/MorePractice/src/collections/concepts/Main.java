@@ -1,5 +1,15 @@
 package collections.concepts;
 
+import collections.concepts.hashtables.Employee;
+import collections.concepts.hashtables.Library;
+import collections.concepts.lists.ExampleArrayFourList;
+import collections.concepts.oneDimArrays.ExampleArrayOne;
+import collections.concepts.oneDimArrays.ExampleArrayTwo;
+import collections.concepts.twoDimArrays.ExampleArrayThreeTwo_Dim;
+import file.input.ElectricityBills;
+
+import java.util.Scanner;
+
 /**
  * Created by Tunde on 20/11/2016.
  */
@@ -50,5 +60,35 @@ public class Main {
         System.out.println("===============================================");
 
         shopping.showAllItemsEnhanced();
+
+        System.out.println("===============================================");
+
+        Library library = new Library();
+        String carName = library.getCar("Tunde");
+        System.out.println(carName);
+/*
+        System.out.println("===============================================");
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter your car key");
+        String carKey = scanner.nextLine();
+
+        System.out.println("Please enter your car name");
+        String carModel = scanner.nextLine();
+        library.setCar(carKey, carModel);
+        library.clearCarRecord();
+
+        String newCarName = library.getCar(carKey);
+        System.out.println("Your new car is: " +newCarName);
+*/
+
+        System.out.println("===============================================");
+        Employee employee = new Employee();
+        Double empSalary = employee.getEmpRecord("Dan");
+
+        System.out.println(empSalary);
+
+        System.out.println("===============================================");
+
     }
 }
