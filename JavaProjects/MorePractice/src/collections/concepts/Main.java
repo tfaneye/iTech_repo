@@ -89,6 +89,5 @@ public class Main {
         System.out.println(empSalary);
 
         System.out.println("===============================================");
-
     }
 }
