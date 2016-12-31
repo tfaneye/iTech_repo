@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be0d1638-98ab-4ad1-8eab-472c400b1820" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MorePractice/collections/concepts/Main.class" afterPath="$PROJECT_DIR$/out/production/MorePractice/collections/concepts/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MorePractice/collections/concepts/twoDimArrays/ExampleArrayThreeTwo_Dim.class" afterPath="$PROJECT_DIR$/out/production/MorePractice/collections/concepts/twoDimArrays/ExampleArrayThreeTwo_Dim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/collections/concepts/Main.java" afterPath="$PROJECT_DIR$/src/collections/concepts/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/collections/concepts/twoDimArrays/ExampleArrayThreeTwo_Dim.java" afterPath="$PROJECT_DIR$/src/collections/concepts/twoDimArrays/ExampleArrayThreeTwo_Dim.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/operators/TestStrings.java" afterPath="$PROJECT_DIR$/src/string/operators/TestStrings.java" />
     </list>
     <ignored path="Test2Project.iws" />
@@ -65,8 +60,8 @@
       <file leaf-file-name="TestStrings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/string/operators/TestStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+            <state relative-caret-position="330">
+              <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -820,12 +815,12 @@
       <workItem from="1482600367947" duration="15237000" />
       <workItem from="1482835941922" duration="7905000" />
       <workItem from="1483123835866" duration="4688000" />
-      <workItem from="1483188955301" duration="4050000" />
+      <workItem from="1483188955301" duration="4341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113050000" />
+    <option name="totallyTimeSpent" value="113341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -839,7 +834,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28424656" sideWeight="0.5030534" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2688356" sideWeight="0.49694657" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2688356" sideWeight="0.49694657" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1284,8 +1279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/string/operators/TestStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        <state relative-caret-position="330">
+          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
           <folding />
         </state>
       </provider>

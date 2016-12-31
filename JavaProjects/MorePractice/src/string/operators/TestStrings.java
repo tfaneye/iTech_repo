@@ -9,7 +9,7 @@ import java.util.Date;
 public class TestStrings {
 
     public static void main(String[] args){
-        /*
+
         String name = "Johnston";
 
         char letter = name.charAt(2);
@@ -59,7 +59,9 @@ public class TestStrings {
         System.out.println(original_result + " % 7 = " + result);
 
         System.out.println("================================================");
-        */
+
+
+        //More practice on For Loop
         int i;
         //++i;*/
         for(i=0;i<=10;++i)
