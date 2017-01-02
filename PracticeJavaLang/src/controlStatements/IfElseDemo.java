@@ -6,7 +6,11 @@ package controlStatements;
 public class IfElseDemo {
 
     public static void main(String[] args){
+<<<<<<< HEAD
         int testScore = 97;
+=======
+        int testScore = 45;
+>>>>>>> e2dbef80c380e0ddc0c3ec4d963d105efb5f1e49
         char grade;
 
         if(testScore >=90){
