@@ -37,6 +37,7 @@ public class Main {
         System.out.println("===============================================");
 
         ExampleArrayThreeTwo_Dim exampleArrayThreeTwoDim = new ExampleArrayThreeTwo_Dim();
+       // String[][] details = exampleArrayThreeTwoDim.ExampleArrayThreeTwo_Dim();
         String[][] details = exampleArrayThreeTwoDim.getUserCredentials();
 
         //System.out.println(details[3][4]);
@@ -46,6 +47,9 @@ public class Main {
                 System.out.println(details[x][y]);
             }
         }
+        System.out.println("===============================================");
+        exampleArrayThreeTwoDim.moreTwoDimArrays();
+
 
         System.out.println("===============================================");
 
