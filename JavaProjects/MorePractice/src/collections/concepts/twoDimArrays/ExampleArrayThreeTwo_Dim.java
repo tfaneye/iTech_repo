@@ -6,6 +6,7 @@ package collections.concepts.twoDimArrays;
 public class ExampleArrayThreeTwo_Dim {
 
     private String[][] userCredentials;
+    String[][] fullName;
 
     public ExampleArrayThreeTwo_Dim(){
         userCredentials = new String[2][3];  // row = 2, column = 3
@@ -21,4 +22,18 @@ public class ExampleArrayThreeTwo_Dim {
     public String[][] getUserCredentials() {
         return userCredentials;
     }
+
+    //More Example of MultiDimensional Array
+    public String[][] moreTwoDimArrays(){
+        fullName = new String[][]{
+                {"Mr. ", "Mrs. ", "Ms. "},
+                {"James: ", "Joan: "},
+                {"1, James Street", "2 Joan Road"}
+        };
+        System.out.println(fullName[0][0] + fullName[1][0] + fullName[2][0]);
+        System.out.println(fullName[0][1] + fullName[1][1]);
+        return fullName;
+    }
+
+
 }
