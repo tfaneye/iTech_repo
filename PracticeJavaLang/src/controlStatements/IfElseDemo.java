@@ -27,7 +27,7 @@ public class IfElseDemo {
 
         System.out.println("================================================");
 
-        int month = 12;
+        int month = 10;
         int year = 2017;
         int numDays = 0;
 
