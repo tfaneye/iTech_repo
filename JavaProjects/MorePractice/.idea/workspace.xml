@@ -5,7 +5,15 @@
     <list default="true" id="be0d1638-98ab-4ad1-8eab-472c400b1820" name="Default" comment="" />
 =======
     <list default="true" id="be0d1638-98ab-4ad1-8eab-472c400b1820" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MorePractice/collections/concepts/Main.class" afterPath="$PROJECT_DIR$/out/production/MorePractice/collections/concepts/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MorePractice/collections/concepts/twoDimArrays/ExampleArrayThreeTwo_Dim.class" afterPath="$PROJECT_DIR$/out/production/MorePractice/collections/concepts/twoDimArrays/ExampleArrayThreeTwo_Dim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/collections/concepts/Main.java" afterPath="$PROJECT_DIR$/src/collections/concepts/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/collections/concepts/twoDimArrays/ExampleArrayThreeTwo_Dim.java" afterPath="$PROJECT_DIR$/src/collections/concepts/twoDimArrays/ExampleArrayThreeTwo_Dim.java" />
+>>>>>>> parent of abd1e07... update
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/operators/TestStrings.java" afterPath="$PROJECT_DIR$/src/string/operators/TestStrings.java" />
     </list>
 >>>>>>> abd1e07a5551274b144b2e7f638cb6c57d308007
@@ -90,8 +98,13 @@
       <file leaf-file-name="TestStrings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/string/operators/TestStrings.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="588">
               <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+=======
+            <state relative-caret-position="176">
+              <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+>>>>>>> parent of abd1e07... update
               <folding />
             </state>
           </provider>
@@ -676,13 +689,21 @@
       <workItem from="1482600367947" duration="15237000" />
       <workItem from="1482835941922" duration="7905000" />
       <workItem from="1483123835866" duration="4688000" />
+<<<<<<< HEAD
       <workItem from="1483188955301" duration="4945000" />
       <workItem from="1483377534765" duration="335000" />
+=======
+      <workItem from="1483188955301" duration="4050000" />
+>>>>>>> parent of abd1e07... update
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="114280000" />
+=======
+    <option name="totallyTimeSpent" value="113050000" />
+>>>>>>> parent of abd1e07... update
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
@@ -704,7 +725,11 @@
 =======
 >>>>>>> abd1e07a5551274b144b2e7f638cb6c57d308007
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2688356" sideWeight="0.49694657" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2688356" sideWeight="0.49694657" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> parent of abd1e07... update
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1182,8 +1207,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/string/operators/TestStrings.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="588">
           <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+=======
+        <state relative-caret-position="176">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+>>>>>>> parent of abd1e07... update
           <folding />
         </state>
       </provider>
