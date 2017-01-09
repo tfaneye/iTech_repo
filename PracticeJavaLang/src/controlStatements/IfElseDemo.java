@@ -51,7 +51,6 @@ public class IfElseDemo {
                 System.out.println("Invalid month.");
                 break;
         }
-        System.out.println("Number of Days = "
-                + numDays);
+        System.out.println("Number of Days = " + numDays);
     }
 }
