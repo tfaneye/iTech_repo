@@ -15,11 +15,11 @@ public class ExampleArrayOne {
     public void checkBasicArrayConcepts() {
 
         //1st Concept of Array
-        int studentAge[] = new int[5]; //example of int Array
+        int studentAge[] = new int[5];         //example of int Array
         String studentName[] = new String[5];
 
         //2nd Concept of Array
-        int[] studentAges = new int[5]; //preferred way of writing Array
+        int[] studentAges = new int[5];       //preferred way of writing Array
         studentAges[0] = 23;
         studentAges[1] = 25;
         studentAges[2] = 30;
@@ -37,7 +37,7 @@ public class ExampleArrayOne {
         System.out.println(schFees[1]);
     }
 
-    public void showStudentAges(){
+    public String showStudentAges(int age){
         int[] studentAges = new int[5];
         studentAges[0] = 23;
         studentAges[1] = 25;
@@ -46,8 +46,22 @@ public class ExampleArrayOne {
         studentAges[4] = 35;
 
         for(int i = 0; i < studentAges.length; i++){
-
+            if(i == 2){
+                break;
+            }
             System.out.println(studentAges[i]);
         }
+
+        //Using foreach loop
+        for (int studentAge:
+             studentAges) {
+            if(studentAge == age){
+                return "Yes";
+            }
+
+           // System.out.println(studentAge);
+        }
+        return "No";
     }
+
 }

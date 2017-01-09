@@ -19,6 +19,15 @@ public class ElectricCar {
     }
 
     public double getCarPrice() {
+        if(carPrice == 56000){
+            System.out.println("Old Car price is " + carPrice);
+        }
+        else if(carPrice == 60000){
+            System.out.println("New car price is "+ carPrice);
+        }
+        else {
+            System.out.println("This price has not been defined");
+        }
         return carPrice;
     }
 

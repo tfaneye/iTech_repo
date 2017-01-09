@@ -18,7 +18,7 @@ public class Main {
 
         ExampleArrayOne exampleArrayOne = new ExampleArrayOne();
         exampleArrayOne.checkBasicArrayConcepts();
-        exampleArrayOne.showStudentAges();
+        exampleArrayOne.showStudentAges(60);
 
         System.out.println("===============================================");
 
