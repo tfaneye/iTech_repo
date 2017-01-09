@@ -3,7 +3,7 @@ package collections.concepts.oneDimArrays;
 /**
  * Created by Tunde on 09/01/2017.
  */
-public class ExampleArrayOne {
+public class ExampleOneDimArrayOne {
 
     /*private int studentOneAge = 23;
     private int studentTwoAge = 25;
@@ -48,6 +48,12 @@ public class ExampleArrayOne {
         for(int i = 0; i < studentAges.length; i++){
 
             System.out.println(studentAges[i]);
+        }
+
+        for (int studentAge:
+             studentAges) {
+            System.out.println(studentAge);
+
         }
     }
 }

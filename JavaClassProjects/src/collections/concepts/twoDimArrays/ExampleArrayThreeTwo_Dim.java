@@ -34,4 +34,29 @@ public class ExampleArrayThreeTwo_Dim {
         System.out.println(fullName[0][1] + fullName[1][1]);
         return fullName;
     }
+
+    public int[][] showStudentNumbers(){
+        int[][] studentNumber = {
+                {1352, 3749, 8900},
+                {6000, 4000, 2000},
+                {6543, 8765, 9631}
+        };
+
+        for(int i = 0; i<3; i++){
+            for(int j = 0; j<3; j++){
+                System.out.print(studentNumber[i][j]);
+            }
+        }
+/*
+                //OR (This is a preferred way)
+        for(int x = 0; x < studentNumber.length; x++){
+            for(int y = 0; y < studentNumber[x].length; y++)
+            System.out.println(studentNumber[x][y]);
+        }
+       // System.out.println(studentNumber[0][0]);
+       // System.out.println(studentNumber[1][0]);
+*/
+
+        return studentNumber;
+    }
 }

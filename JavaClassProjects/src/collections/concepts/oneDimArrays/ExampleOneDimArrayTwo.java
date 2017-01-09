@@ -3,11 +3,11 @@ package collections.concepts.oneDimArrays;
 /**
  * Created by Tunde on 09/01/2017.
  */
-public class ExampleArrayTwo {
+public class ExampleOneDimArrayTwo {
 
     private int[] studentAges;
 
-    public ExampleArrayTwo(){
+    public ExampleOneDimArrayTwo(){
 
         studentAges = new int[5];
         studentAges[0] = 23;

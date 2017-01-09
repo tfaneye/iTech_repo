@@ -3,8 +3,8 @@ package collections.concepts;
 import collections.concepts.hashtables.Employee;
 import collections.concepts.hashtables.Library;
 import collections.concepts.lists.ExampleArrayFourList;
-import collections.concepts.oneDimArrays.ExampleArrayOne;
-import collections.concepts.oneDimArrays.ExampleArrayTwo;
+import collections.concepts.oneDimArrays.ExampleOneDimArrayOne;
+import collections.concepts.oneDimArrays.ExampleOneDimArrayTwo;
 import collections.concepts.twoDimArrays.ExampleArrayThreeTwo_Dim;
 
 /**
@@ -14,21 +14,21 @@ public class Main {
 
     public static void main(String[] args){
 
-        ExampleArrayOne exampleArrayOne = new ExampleArrayOne();
-        exampleArrayOne.checkBasicArrayConcepts();
-        exampleArrayOne.showStudentAges();
+        ExampleOneDimArrayOne exampleOneDimArrayOne = new ExampleOneDimArrayOne();
+        exampleOneDimArrayOne.checkBasicArrayConcepts();
+        exampleOneDimArrayOne.showStudentAges();
 
         System.out.println("===============================================");
 
-        ExampleArrayTwo exampleArrayTwo = new ExampleArrayTwo();
-        exampleArrayTwo.showMyStudentAges();
+        ExampleOneDimArrayTwo exampleOneDimArrayTwo = new ExampleOneDimArrayTwo();
+        exampleOneDimArrayTwo.showMyStudentAges();
 
         System.out.println("===============================================");
 
-        String result = exampleArrayTwo.findStudentAge(100);
+        String result = exampleOneDimArrayTwo.findStudentAge(100);
         System.out.println(result);
 
-        int studentTotal = exampleArrayTwo.getTotalStudents();
+        int studentTotal = exampleOneDimArrayTwo.getTotalStudents();
         System.out.println(studentTotal);
 
         System.out.println("===============================================");
@@ -46,6 +46,9 @@ public class Main {
         }
         System.out.println("===============================================");
         exampleArrayThreeTwoDim.moreTwoDimArrays();
+
+        System.out.println("===============================================");
+        exampleArrayThreeTwoDim.showStudentNumbers();
 
 
         System.out.println("===============================================");

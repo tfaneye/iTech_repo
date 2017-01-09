@@ -15,7 +15,7 @@ public class Library {
         vehicles.put("Tunde", "Bentley");
         vehicles.put("John", "BMW 5");
         vehicles.put("Dan", "Honda");
-        vehicles.put("Ryan", "Benz G class");
+        vehicles.put("Ryan", "Benz GLC Coupe");
     }
 
     public String getCar(String key) {
