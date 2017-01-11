@@ -5,10 +5,21 @@ package object.oriented.programming.polymorphism;
  */
 public class BicPen extends Pen {
 
-    protected long penNumber = 689l;
+   // private long penNumber = 689L;
 
+    public BicPen(long penNumber) {
+        super(penNumber);
+    }
+
+    //Examples of Overriding & Overloading
     public void writeLetter(){
-        //        super.writeLetter();
-        //        System.out.println("I can write with pen with serial number: " +penNumber);
+            super.writeLetter();
+            System.out.println("I can write with pen from Child with serial number: " +penNumber);
+    }
+
+    public void writeLetter(String testName){
+            super.writeLetter(testName);
+            System.out.println(testName);
+
     }
 }

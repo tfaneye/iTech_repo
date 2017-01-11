@@ -5,13 +5,13 @@ package mock.automation;
  */
 public class Government {
 
-    private String PmName = "Theresa May";
+    private String pmName = "Theresa May";
 
     public String getPmName() {
-        return PmName;
+        return pmName;
     }
 
     public void setPmName(String pmName) {
-        PmName = pmName;
+        this.pmName = pmName;
     }
 }

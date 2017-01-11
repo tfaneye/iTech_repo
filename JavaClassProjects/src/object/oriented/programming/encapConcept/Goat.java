@@ -3,13 +3,13 @@ package object.oriented.programming.encapConcept;
 import object.oriented.programming.inheritance.Animal;
 
 /**
- * Created by Tunde on 09/01/2017.
+ * Created by Tunde on 10/01/2017.
  */
-public class Dove extends Animal{
+public class Goat extends Animal {
 
     private boolean hasSkin = true;
-    private String doveName = "Mountin Dove";
-    private int numOfLegs = 2;
+    private String doveName = "Mountin Goat";
+    private int numOfLegs = 4;
 
     public boolean isHasSkin() {
         return hasSkin;
@@ -33,11 +33,5 @@ public class Dove extends Animal{
 
     public void setNumOfLegs(int numOfLegs) {
         this.numOfLegs = numOfLegs;
-    }
-
-
-    //Making Dove class to implement attribute from Animal class
-    public boolean getEyeStatus(){
-        return hasEyes;
     }
 }

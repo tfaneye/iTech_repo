@@ -13,7 +13,7 @@ public class GovernmentCrownCourt {
 
     public void resumeWorkForLawyers(){
         if(gov.getPmName().contains("Theresa")){
-            System.out.println("We are going on back to work...");
+            System.out.println("We are going back to work...");
         }else {
             System.out.println("We are still on strike...");
         }

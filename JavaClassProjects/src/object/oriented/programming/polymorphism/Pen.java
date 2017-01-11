@@ -7,9 +7,20 @@ public class Pen {
 
     //Example of Overriding
 
-    protected long penNumber = 6897878l;
+    protected long penNumber;
+
+    public Pen(long penNumber) {
+        this.penNumber = penNumber;
+    }
 
     public void writeLetter(){
-        System.out.println("I can write with prn with serial number: " +penNumber);
+        System.out.println("I can write with pen from Parent with serial number: " +penNumber);
     }
+
+    public void writeLetter(String testName){
+        System.out.println(testName);
+
+    }
+
+
 }

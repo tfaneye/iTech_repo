@@ -6,8 +6,8 @@ package object.oriented.programming.polymorphism;
 public class OverridingRunner {
 
     public static void main(String[] args){
-        BicPen bluePen = new BicPen();
+        BicPen bluePen = new BicPen(67869);
 
-        bluePen.writeLetter();
+        bluePen.writeLetter("Java Test");
     }
 }

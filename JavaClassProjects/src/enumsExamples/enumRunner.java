@@ -17,9 +17,9 @@ public class enumRunner {
 
         Weather weather = new Weather();
         weather.getCountryWeather();
-        weather.getCityWeather(Weather.WeatherDegree.Outlook);
-        weather.findMyWeather(Weather.WeatherDegree.Outlook);
-        weather.arrayMethod();
+        weather.getCityWeather(Weather.WeatherDegree.OUTLOOK);
+        weather.findMyWeather(Weather.WeatherDegree.OUTLOOK);
+        weather.selectBrowser();
 
         System.out.println("==========================================");
 

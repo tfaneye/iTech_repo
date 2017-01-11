@@ -12,7 +12,7 @@ public class FastFood {
         }catch (Throwable t){
             double result = y/x;
             System.out.println(result);
-            System.err.println(t.fillInStackTrace());
+            System.err.println(t.getMessage());
         }finally {
             System.out.println("This code must run no matter what!!");
 

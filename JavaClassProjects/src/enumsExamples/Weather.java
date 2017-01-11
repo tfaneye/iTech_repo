@@ -6,24 +6,24 @@ package enumsExamples;
 public class Weather {
 
     enum WeatherDegree{
-        Hot,
-        Cold,
-        Outlook,
-        Overcast,
-        Snowy,
-        Rainy
+        HOT,
+        COLD,
+        OUTLOOK,
+        OVERCAST,
+        SNOWY,
+        RAINY
     }
 
     public void getCountryWeather(){
-        WeatherDegree degree = WeatherDegree.Hot;
+        WeatherDegree degree = WeatherDegree.HOT;
 
-        if(degree == WeatherDegree.Cold){
+        if(degree == WeatherDegree.COLD){
             System.out.println("We are in UK");
-        }else if(degree == WeatherDegree.Hot){
+        }else if(degree == WeatherDegree.HOT){
             System.out.println("We are in Cameroon");
-        }else if(degree == WeatherDegree.Outlook){
+        }else if(degree == WeatherDegree.OUTLOOK){
             System.out.println("We are in Ghana");
-        }else if(degree == WeatherDegree.Rainy){
+        }else if(degree == WeatherDegree.RAINY){
             System.out.println("We are in South Africa");
         }else{
             System.out.println("We are in nowhere!!");
@@ -31,13 +31,13 @@ public class Weather {
     }
 
     public void getCityWeather(WeatherDegree degree) {
-        if (degree == WeatherDegree.Cold) {
+        if (degree == WeatherDegree.COLD) {
             System.out.println("We must be in UK");
-        } else if (degree == WeatherDegree.Hot) {
+        } else if (degree == WeatherDegree.HOT) {
             System.out.println("We must be in Cameroon");
-        } else if (degree == WeatherDegree.Outlook) {
+        } else if (degree == WeatherDegree.OUTLOOK) {
             System.out.println("We must be in Ghana");
-        } else if (degree == WeatherDegree.Rainy) {
+        } else if (degree == WeatherDegree.RAINY) {
             System.out.println("We must be in South Africa");
         } else {
             System.out.println("We must be in nowhere!!");
@@ -46,19 +46,19 @@ public class Weather {
 
     public void findMyWeather(WeatherDegree weatherDegree){
         switch (weatherDegree){
-            case Hot:
+            case HOT:
                 System.out.println("This is Morocco");
                 break;
-            case Rainy:
+            case RAINY:
                 System.out.println("This is Senega");
                 break;
-            case Cold:
+            case COLD:
                 System.out.println("This is England");
                 break;
-            case Snowy:
+            case SNOWY:
                 System.out.println("This is Canada");
                 break;
-            case Overcast:
+            case OVERCAST:
                 System.out.println("This is Spain");
                 break;
             default:
@@ -68,16 +68,18 @@ public class Weather {
     }
 
     //using array with Enums
-    public enum Browsers{Chrome, Firefox, InternetExplorer, Safari, PhantomJS, Opera}
+    public enum Browsers{
+        CHROME, FIREFOX, INTERNET_EXPLORER, SAFARI, PHANTOM_JS, OPERA
+    }
 
-    public void arrayMethod(){
+    public void selectBrowser(){
         Browsers[] browsers = new Browsers[6];
-        browsers[0] = Browsers.Chrome;
-        browsers[1] = Browsers.Firefox;
-        browsers[2] = Browsers.InternetExplorer;
-        browsers[3] = Browsers.Safari;
-        browsers[4] = Browsers.PhantomJS;
-        browsers[5] = Browsers.Opera;
+        browsers[0] = Browsers.CHROME;
+        browsers[1] = Browsers.FIREFOX;
+        browsers[2] = Browsers.INTERNET_EXPLORER;
+        browsers[3] = Browsers.SAFARI;
+        browsers[4] = Browsers.PHANTOM_JS;
+        browsers[5] = Browsers.OPERA;
 
         for (Browsers browser :
                 browsers) {

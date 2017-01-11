@@ -9,6 +9,7 @@ public class Tea {
     private int teaNumber;
     private double teaPrice;
 
+    //example of Overloading by changing number of Arg Parameter in a Constructor
     public Tea() {
         this.teaName = "Lipton";
         this.teaNumber = 5;
@@ -33,7 +34,7 @@ public class Tea {
         this.teaPrice = teaPrice;
     }
 
-    //example of Overloading by changing number of Arg Parameter
+    //example of Overloading by changing number of Arg Parameter in a method
     public void drinkTea(){
         System.out.println("No parameter");
     }
