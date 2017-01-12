@@ -7,7 +7,7 @@ public abstract class XyzBranch implements XyzHeadOfice {
 
     String brachAddress = "22 Branch Road";
 
-    
+
     public void editBranch() {
 
     }
