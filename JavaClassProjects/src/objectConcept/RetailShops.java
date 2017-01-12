@@ -16,6 +16,12 @@ public class RetailShops {
             }else if(detail == (Object) 12){
                 int milkQty = (int)detail;
                 System.out.println(milkQty);
+            }else if(detail == "Peak"){
+                String milkName = (String)detail;
+                System.out.println(milkName);
+            }else if(detail == (Object) 230.0){
+                double milkPrice = (double)detail;
+                System.out.println(milkPrice);
             }
         }
     }

@@ -3,12 +3,12 @@ package staticModifierConcept;
 /**
  * Created by Tunde on 09/01/2017.
  */
-public class Milk {
+public class PeakMilk {
 
     private String milkName;
     private static String companyName = "Cadbury Plc";
 
-    public Milk(String milkName) {
+    public PeakMilk(String milkName) {
         this.milkName = milkName;
     }
 
@@ -18,14 +18,5 @@ public class Milk {
 
     public static String getCompanyName(){
         return companyName;
-    }
-
-    public static void main(String[] args){
-        Milk milk = new Milk("Peak");
-        String name = milk.getMilkName();
-        System.out.println(name);
-
-        String compName = getCompanyName();
-        System.out.println(compName);
     }
 }
