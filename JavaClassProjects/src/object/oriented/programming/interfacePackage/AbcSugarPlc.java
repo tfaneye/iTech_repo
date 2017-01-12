@@ -5,7 +5,7 @@ package object.oriented.programming.interfacePackage;
  */
 public class AbcSugarPlc implements AbcPlc {
 
-    private double salesAmount = 29000.00;
+    private double salesAmount;
 
     public AbcSugarPlc(double salesAmount) {
         this.salesAmount = salesAmount;
@@ -49,7 +49,7 @@ public class AbcSugarPlc implements AbcPlc {
     }
 
     @Override
-    public int trainStaff() {
+    public int trainStaff()  {
         return 0;
     }
 

@@ -13,5 +13,7 @@ public interface SunderlandCityCouncil {
 
     void payTaxToSunderlandCityCouncil();
 
-    boolean doYouhaveCoolingVan();
+    boolean doYouHaveCoolingVan();
+
+    void sellTobaccoToOver25();
 }

@@ -13,5 +13,9 @@ public class InterRunner {
         //Using Interface to instantiate child Class
         AbcPlc abcPlc = new AbcSugarPlc(30000);
         abcPlc.displayOfficeAddress();
+        abcPlc.makeProfit();
+
+        TescoExtra tescoExtra = new TescoExtra();
+        tescoExtra.sellTobaccoToOver25();
     }
 }
