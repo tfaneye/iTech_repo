@@ -68,4 +68,10 @@ public class AbcBankPlc implements AbcPlc {
     public void promoteEmp(int empId) {
 
     }
+
+    @Override
+    public void calPayment(){
+
+    }
+
 }

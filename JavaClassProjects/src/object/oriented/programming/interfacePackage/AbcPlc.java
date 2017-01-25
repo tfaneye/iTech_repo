@@ -16,4 +16,6 @@ public interface AbcPlc {
     int trainStaff();
     void paySalary();
     void promoteEmp(int empId);
+
+    void calPayment();
 }
