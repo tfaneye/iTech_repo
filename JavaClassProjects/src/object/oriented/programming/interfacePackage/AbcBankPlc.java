@@ -46,6 +46,8 @@ public class AbcBankPlc implements AbcPlc {
         System.out.println("Which address do you want to request");
         Scanner scanner = new Scanner(System.in);
         String address = scanner.nextLine();
+
+        Double d = scanner.nextDouble();
         if(address.equalsIgnoreCase("local")){
             System.out.println(localAddress);
             return localAddress;

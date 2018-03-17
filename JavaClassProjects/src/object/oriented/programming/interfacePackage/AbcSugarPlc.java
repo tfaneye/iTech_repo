@@ -65,6 +65,6 @@ public class AbcSugarPlc implements AbcPlc {
 
     @Override
     public void calPayment() {
-        
+
     }
 }

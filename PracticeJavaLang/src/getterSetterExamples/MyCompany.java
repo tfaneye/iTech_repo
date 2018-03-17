@@ -19,5 +19,12 @@ public class MyCompany {
         }else{
             System.out.println("You are not entitle for bonus at this time");
         }
+
+        try {
+            Thread.sleep(200);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
+
 }
