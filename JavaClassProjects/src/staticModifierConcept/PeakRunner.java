@@ -14,5 +14,10 @@ public class PeakRunner {
 
         String compName = getCompanyName();
         System.out.println(compName);
+
+        String comp = PeakMilk.getCompanyName();
+
+        System.out.println(comp);
+
     }
 }

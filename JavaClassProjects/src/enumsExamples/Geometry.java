@@ -16,8 +16,8 @@ public class Geometry {
     }
 
     public double computeCircleCircumfrence(){
-        double circumfrence = 2 * PI * radius;
-        System.out.println(circumfrence);
-        return circumfrence;
+        double circumference = 2 * PI * radius;
+        System.out.println(circumference);
+        return circumference;
     }
 }
