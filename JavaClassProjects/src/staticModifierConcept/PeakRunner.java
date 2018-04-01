@@ -8,7 +8,7 @@ import static staticModifierConcept.PeakMilk.getCompanyName;
 public class PeakRunner {
 
     public static void main(String[] args){
-        PeakMilk milk = new PeakMilk("Peak");
+        PeakMilk milk = new PeakMilk();
         String name = milk.getMilkName();
         System.out.println(name);
 

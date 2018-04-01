@@ -5,12 +5,12 @@ package staticModifierConcept;
  */
 public class PeakMilk {
 
-    private String milkName;
+    private String milkName = "milk";
     private static String companyName = "Cadbury Plc";
 
-    public PeakMilk(String milkName) {
+    /*public PeakMilk(String milkName) {
         this.milkName = milkName;
-    }
+    }*/
 
     public String getMilkName(){
         return milkName;
