@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08972bf7-c4d8-4fe1-865d-598857480c88" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTest2Projects/ifeStatements/IfElseDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTest2Projects/ifeStatements/Transportation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JavaTest2Projects/string/operators/MoreStringExamples.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ifeStatements/IfElseDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ifeStatements/Transportation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/string/operators/MoreStringExamples.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaTest2Projects/staticModifierConcept/Milk.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaTest2Projects/enumsExamples/Geometry.class" afterPath="$PROJECT_DIR$/out/production/JavaTest2Projects/enumsExamples/Geometry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaTest2Projects/staticModifierConcept/PeakMilk.class" afterPath="$PROJECT_DIR$/out/production/JavaTest2Projects/staticModifierConcept/PeakMilk.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaTest2Projects/staticModifierConcept/PeakRunner.class" afterPath="$PROJECT_DIR$/out/production/JavaTest2Projects/staticModifierConcept/PeakRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaTest2Projects/string/operators/TestStrings.class" afterPath="$PROJECT_DIR$/out/production/JavaTest2Projects/string/operators/TestStrings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PracticeJavaLang/out/production/PracticeJavaLang/controlStatements/IfElseDemo.class" afterPath="$PROJECT_DIR$/../PracticeJavaLang/out/production/PracticeJavaLang/controlStatements/IfElseDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PracticeJavaLang/out/production/PracticeJavaLang/getterSetterExamples/MyCompany.class" afterPath="$PROJECT_DIR$/../PracticeJavaLang/out/production/PracticeJavaLang/getterSetterExamples/MyCompany.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/enumsExamples/Geometry.java" afterPath="$PROJECT_DIR$/src/enumsExamples/Geometry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/staticModifierConcept/PeakMilk.java" afterPath="$PROJECT_DIR$/src/staticModifierConcept/PeakMilk.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/staticModifierConcept/PeakRunner.java" afterPath="$PROJECT_DIR$/src/staticModifierConcept/PeakRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string/operators/TestStrings.java" afterPath="$PROJECT_DIR$/src/string/operators/TestStrings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PracticeJavaLang/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PracticeJavaLang/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PracticeJavaLang/src/controlStatements/IfElseDemo.java" afterPath="$PROJECT_DIR$/../PracticeJavaLang/src/controlStatements/IfElseDemo.java" />
-    </list>
+    <list default="true" id="08972bf7-c4d8-4fe1-865d-598857480c88" name="Default" comment="" />
     <ignored path="JavaTest2Projects.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -106,8 +84,8 @@
       <file leaf-file-name="IfElseDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ifeStatements/IfElseDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+            <state relative-caret-position="232">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -386,20 +364,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="input" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaTest2Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaClassProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -972,12 +936,12 @@
       <workItem from="1485458074684" duration="1789000" />
       <workItem from="1515955245775" duration="4519000" />
       <workItem from="1517087053426" duration="607000" />
-      <workItem from="1524175353504" duration="799000" />
+      <workItem from="1524175353504" duration="885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63683000" />
+    <option name="totallyTimeSpent" value="63769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
@@ -1431,8 +1395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ifeStatements/IfElseDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        <state relative-caret-position="232">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
