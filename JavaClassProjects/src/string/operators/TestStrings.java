@@ -14,12 +14,16 @@ public class TestStrings {
         char letter = name.charAt(2);
         int letter1 = name.compareTo("John");
         System.out.println(name.concat(" Humphries"));
+
         System.out.println("================================================");
+
         Date date = new Date();
         SimpleDateFormat dateFormat = new SimpleDateFormat("E dd/MM/yyyy 'at' hh:mm:ss a zzz");
         String dateTime = dateFormat.format(date);
         System.out.println(dateTime);
+
         System.out.println("================================================");
+
         int result = 1 + 2;
         // result is now 3
         System.out.print("This is additive example ---> ");
@@ -44,13 +48,14 @@ public class TestStrings {
         result = result % 7;
         // result is now 3
         System.out.println(original_result + " % 7 = " + result);
+
         System.out.println("================================================");
 
         //
 
         int i;
         //++i;*/
-        for(i=0;i<=10;++i)
+        for(i=0;i<=10;i++)             //either i++ or ++i work same way
             System.out.println(i);
         /*i++;
         System.out.println(i);
