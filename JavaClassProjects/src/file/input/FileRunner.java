@@ -9,7 +9,7 @@ public class FileRunner {
 
     public static void main(String[] args) throws IOException {
 
-        ElectricityBills bills = new ElectricityBills();
+        /*ElectricityBills bills = new ElectricityBills();
 
         String[] text = {"John", "Kelly", "Robert", "Mugabe", "Donald", "Trump"};
 
@@ -17,6 +17,13 @@ public class FileRunner {
         bills.writeIntoFile();
         bills.writeMoreIntoFile();
         bills.writeFileInArray(text);
-        bills.readFile();
+        bills.readFile();*/
+
+        //String[] text = {"John", "Kelly", "Robert", "Mugabe", "Donald", "Trump"};
+
+        CreateFileDemo createFile = new CreateFileDemo();
+        createFile.createMyFile();
+        createFile.writeIntoFile();
+        createFile.writingArraysOnNumber();
     }
 }

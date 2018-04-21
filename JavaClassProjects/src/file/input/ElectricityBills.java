@@ -16,7 +16,9 @@ public class ElectricityBills {
         String rootDir = System.getProperty("user.dir");
 
         String fileName = rootDir + "\\test_data\\myBills.txt";
-        file = new File(fileName);
+        //or
+        String filePath = rootDir.concat("/test_data/myBills.txt");
+        file = new File(filePath);
     }
 
     public void createFile(){
