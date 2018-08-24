@@ -11,8 +11,8 @@ public class Runner_InhEncap {
 
         Dove dove = new Dove();
         dove.getDoveName();
-        dove.walk();
-        dove.resistAntibiotic();
+        dove.walk();            //example of 2-level inheritance
+        dove.resistAntibiotic(); //example of 3-level inheritance
 
         //Using superclass to instantiate subclass
         Animal dove1 = new Dove();

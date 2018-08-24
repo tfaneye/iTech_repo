@@ -34,17 +34,19 @@ public class LoginTest extends GeneralHooks {
 	public static Collection spreadSheetData() throws IOException{
 		//String excelName = "\\test_data\\release_one\\LoginTestData.xls";
 		//String localPath = "\\src\\test\\resources";
-		String path = System.getProperty("user.dir")+"\\src\\test\\resources\\com\\guru99\\live\\test_data\\LoginTestData.xls";
+		/*String path = System.getProperty("user.dir")+"\\src\\test\\resources\\com\\guru99\\live\\test_data\\LoginTestData.xls";*/
+		String path = System.getProperty("user.dir")+"/src/test/resources/com/guru99/live/test_data/LoginTestData.xls";
 		InputStream spreadsheet = new FileInputStream(path);
 		return new SpreadsheetData(spreadsheet).getData();
 	}
 	
 	@Test
 	public void magentoLoginTest(){
-		homePage
+		String message = homePage
 		.goToMyAccount()
-		.loginWith("username","password")
-		.validateLogin("Welcome, Donald Jonathan!");
+		.loginWith(username, password).validateLogin();
+
+		//.validateLogin("Welcome, Donald Jonathan!");
 	}
 	
 	@Test @Ignore

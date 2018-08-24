@@ -49,9 +49,9 @@ public class ExampleOneDimArrayOne {
 
             System.out.println(studentAges[i]);
         }
+//==================================================================
 
-        for (int studentAge:
-             studentAges) {
+        for (int studentAge : studentAges) {
             System.out.println(studentAge);
 
         }

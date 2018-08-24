@@ -23,13 +23,13 @@ public class GeneralHooks {
 		
 		//WebDriver driver = new FirefoxDriver();
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Tunde\\TrainCentre\\JavaCodes\\Projects\\iTech_repo\\MagentoWebProject\\MagentoWebAcceptanceTest\\browser_driver\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Tunde\\TrainCentre\\JavaCodes\\Projects\\iTech_repo\\MagentoWebProject\\MagentoWebAcceptanceTest\\browser_driver\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/home/inet-tech/ProjectRepos/lion_repo/MagentoWebProject/MagentoWebAcceptanceTest/browser_driver/drivers/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		this.basePage = new BasePage(driver);
-		this.homePage = new HomePage(driver);
 		//this.myAccountPage = new MyAccountPage(driver);
 		//this.myDashboardPage = new MyDashboardPage(driver);
-		basePage.setUpTest();
+		homePage = basePage.setUpTest();
 	}
 	
 	//Post-Condition

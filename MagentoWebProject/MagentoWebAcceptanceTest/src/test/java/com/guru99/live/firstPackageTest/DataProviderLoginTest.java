@@ -1,7 +1,6 @@
 package com.guru99.live.firstPackageTest;
 
 import org.testng.Assert;
-//import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -14,11 +13,11 @@ public class DataProviderLoginTest extends TestNgHooks {
 
 	@Test(dataProvider = "LoginTestData")
 	public void magentoLoginTest1(String newUsername, String newPassword, String name) {
-		boolean ans = homePage
+		String ans = homePage
 		.goToMyAccount()
 		.loginWith(newUsername, newPassword)
-		.validateLogin(name);
-		Assert.assertTrue(ans, "Does not contain "+name);
+		.validateLogin();
+		Assert.assertEquals(ans, name, "Does not contain "+name);
 	}
 
 	@DataProvider(name = "LoginTestData")

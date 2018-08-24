@@ -6,7 +6,7 @@ package collections.concepts.twoDimArrays;
 public class ExampleArrayThreeTwo_Dim {
 
     private String[][] userCredentials;
-    String[][] fullName;
+    private String[][] fullName;
 
     public ExampleArrayThreeTwo_Dim(){
         userCredentials = new String[2][3];  // row = 2, column = 3

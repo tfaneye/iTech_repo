@@ -1,11 +1,9 @@
-package object.oriented.programming.inspection;
-
-import object.oriented.programming.getterSetter.ElectricCar;
+package object.oriented.programming.getterSetter;
 
 /**
  * Created by Tunde on 09/01/2017.
  */
-public class Government {
+public class GetterRunner {
 
     public static void main(String[] args) {
 
@@ -24,5 +22,8 @@ public class Government {
         else {
             System.out.println("This price has not been defined");
         }
+
+        ConstructorAsASetter conSetter = new ConstructorAsASetter(car);
+        conSetter.displayCarName();
     }
 }

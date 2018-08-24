@@ -7,11 +7,11 @@ public class TestRunnerPoly {
 
     public static void main(String[] args){
 
-        /*SalesGirl salesGirl = new SalesGirl();
+        SalesGirl salesGirl = new SalesGirl();
         //salesGirl.setSalesGirlName(Tunde);
         SalesGirl name = salesGirl.getSalesGirlName();
- */
-        Tea greenTea = new Tea("Herbal");
-        greenTea.drinkTea();
+
+        Tea greenTea = new Tea();
+        greenTea.drinkTea(name);
     }
 }

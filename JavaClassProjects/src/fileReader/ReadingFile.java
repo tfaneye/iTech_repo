@@ -14,7 +14,7 @@ public class ReadingFile {
 
 
     public static void main(String[] args) throws IOException {
-        fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\resources\\env.properties");
+        fis = new FileInputStream(System.getProperty("user.dir") + "/src/resources/env.properties");
         prop = new Properties();
         prop.load(fis);
         System.out.println(prop);

@@ -5,7 +5,7 @@ package object.oriented.programming.polymorphism;
  */
 public class BicPen extends Pen {
 
-   // private long penNumber = 689L;
+    private long penNumber = 689L;  //no need for child's field,
 
     public BicPen(long penNumber) {
         super(penNumber);

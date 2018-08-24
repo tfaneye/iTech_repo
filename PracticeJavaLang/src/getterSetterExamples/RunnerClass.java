@@ -11,6 +11,5 @@ public class RunnerClass {
         myCompany.setEmployeeSalary(50000);
         myCompany.giveBonus();
 
-
     }
 }

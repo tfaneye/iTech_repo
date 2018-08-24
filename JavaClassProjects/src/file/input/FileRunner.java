@@ -24,6 +24,7 @@ public class FileRunner {
         CreateFileDemo createFile = new CreateFileDemo();
         createFile.createMyFile();
         createFile.writeIntoFile();
-        createFile.writingArraysOnNumber();
+        //createFile.writingArraysOnNumber();
+        createFile.ReadFile();
     }
 }

@@ -5,6 +5,8 @@ package object.oriented.programming.interfacePackage;
  */
 public interface AbcPlc {
 
+    String name = "eaea";
+
     String COMPANY_NAME = "ABC Plc UK";
     int COMPANY_AGE = 5;
     String COMPANY_ADDRESS_NUMBER = "15 New Road, Head Ofice, London";
